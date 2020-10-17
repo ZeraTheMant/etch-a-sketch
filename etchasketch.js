@@ -58,7 +58,7 @@ function createNewGrid() {
     if (cleanedInput) {
         if (cleanedInput > 100) {
             cleanedInput = 100;
-            alert("Exceeded maximum allowable squared. Automatically set to 100.");
+            alert("Exceeded maximum allowable squares. Automatically set to 100.");
         }
         
         generateGrid(cleanedInput);
